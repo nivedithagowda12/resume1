@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Blood Donation 
+    </title>
+
+</head>
+<body>
+    <div class="bd">
+        <h1>BLOOD DONATION FORM</h1>
+        <div class="blood">
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input text="text" id="name" placeholder="Enter Your Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Age</label></td>
+                        <td><input text="number" id="age" placeholder="Enter Your Age"></td>
+                    </tr>
+                    <tr>
+                        <td><label>PhNo</label></td>
+                        <td><input text="number" id="phno" placeholder="Enter Your Number"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="gender">Gender:</label>
+                            <td><input type="radio"name="Gender"  id="Male"placeholder="male">Male</td>
+                            <td><input type="radio" name="Gender" id="female" placeholder="female">Female</td>
+                    </tr>
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td><input type="text" id="address" placeholder="Enter Your Address"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" id="email" placeholder="Enter Your Email id"></td>
+                    </tr>
+                    <tr>
+                        <div>
+                        <td><label for="bloodGroup">Blood Group:</label>
+                            <select id="bloodGroup" required>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="AB">AB</option>
+                                <option value="O">O</option>
+                            </select></td>                
+                    </tr>
+                    <tr>
+                        <td><input type="submit" id="submit" onclick="bloodd()" placeholder="submit"></td>
+                    </tr>
+                    <script src="./script.js"></script>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

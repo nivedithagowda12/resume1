@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bd{
+    padding: relative;
+    background: #e5e4e4;
+    padding: 100px;
+    margin: 0 20px;
+    border-radius: 15px;
+    background-image: url(./images.jpeg);
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+.bd.body{
+    padding: relative;
+    margin: 0 16px;
+    border-radius: 15px;
+    padding-inline: 50px;
+}
